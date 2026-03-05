@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 
 export function useSearch(oldArr) {
   const [arr, setArr] = useState(oldArr);
-  //   useEffect(()=>{},[])
+    useEffect(() => {setArr(oldArr);}, [oldArr]);
   const search = (v) =>
     setArr(
       oldArr.filter((m) =>

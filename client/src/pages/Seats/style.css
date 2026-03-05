@@ -1,0 +1,42 @@
+.header-section {
+    padding: 0 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.main-seats-page {
+    padding: 0 10px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+justify-content: center;
+padding: 20px 0;
+
+}
+
+.available {
+    width: 60px;
+    height: 60px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taken {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: fit-content;
+    gap: 5px;
+}
