@@ -1,0 +1,12 @@
+.card-section img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.card-sectio{
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

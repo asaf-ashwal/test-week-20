@@ -1,0 +1,31 @@
+.movie-page-main {
+    display: flex;
+}
+
+.movie-page-main img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.litle-divs {
+    display: inline-block;
+    background-color: rgb(207, 209, 211);
+    border-radius: 14px;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link {
+    background-color: orange;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
