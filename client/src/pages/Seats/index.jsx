@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import "./style.css";
-import {useParams} from "react-router";
+import {Link, useParams} from "react-router";
 import axios from "axios";
 function index() {
   const movieId = useParams();
@@ -47,6 +47,7 @@ function index() {
             </div>
           ))}
         </section>
+         <Link  className="link" to={"/"}>Beck Home</Link>
       </section>
     </section>
   );
